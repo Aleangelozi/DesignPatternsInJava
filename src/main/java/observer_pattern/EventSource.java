@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// Source: https://en.wikipedia.org/wiki/Observer_pattern
 class EventSource {
     public interface Observer {
         void update(String event);
